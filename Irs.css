@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    /* height: 100vh; */
+    width: 100%;
+    align-items: center;
+    background-color: #CDE1ED;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 4% 0;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px 0;
+    width:700px;
+
+}
+.first p{
+    font-size: 40px;
+    color: #00446D;
+    font-weight: 600;
+}
+.second{
+
+    border-top: 8px solid #00446D ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    gap: 15px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 20px;
+    width:700px;
+   
+}
+.we{
+    font-size: 35px;
+   
+}
+.text p:nth-child(1){
+    font-weight: bold;
+}
+.w{
+    color: red; 
+    padding-right: 10px;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 10px;
+    gap: 45px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 20px;
+    width:700px;
+    padding-bottom: 70px;
+}
+.text2 p{
+    font-weight: bold;
+}
+.fourth{
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 10px;
+        gap: 45px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px 20px;
+        width:700px;
+        padding-bottom: 70px;
+  
+}
+.fifth{
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 10px;
+        gap: 25px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px 20px;
+        width:700px;
+        padding-bottom: 70px;
+  /*  */
+}
+.sixth{
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 10px;
+        gap: 25px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px 20px;
+        width:700px;
+        font-weight: bold;
+        line-height: 25px;
+}
+.seventh{
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 10px;
+        gap: 25px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px 20px;
+        width:700px;
+        /* font-weight: 600; */
+        line-height: 25px;
+}
+.eight{
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 10px;
+        gap: 25px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px 20px;
+        width:700px;
+        /* font-weight: 600; */
+        line-height: 25px;
+}
+.nine{
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 10px;
+        gap: 25px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px 20px;
+        width:700px;
+        /* font-weight: 600; */
+        line-height: 25px;
+}
+.ten{
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 10px;
+        gap: 25px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px 20px;
+        width:700px;
+        /* font-weight: 600; */
+        line-height: 25px;
+}
+.eleven, .twelve, .text66, .thirteen, .fourteen, .fifteen, .sixteen, .seventeen, .eighteen, .ninteen
+{
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 10px;
+        gap: 25px;
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px 20px;
+        width:700px;
+        /* font-weight: 600; */
+        line-height: 25px;
+}
+span{
+    color: red;
+}
+.inp{
+    border: none;
+    border-bottom: 2px solid rgb(196, 196, 196);
+    width: 400px;
+    outline: none;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
+.btn button:nth-child(1){
+    background-color: #00446D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    
+}
+.btn button:nth-child(2){
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.image img{
+    width: 700px;
+    border-radius: 20px;
+}
+.text66 p:nth-child(1){
+    font-weight: bold;
+}
+.new{
+    display: flex;
+    gap: 10px;
+    display: none;
+}
+.new p{
+    color: red;
+}
+@media screen and (max-width: 950px) {
+    .first, .second, .third, .text66, .fourth, .fifth, .sixth, .seventh, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen, .seventeen, .eighteen, .ninteen{
+        width: 350px;
+    }
+    .inp{
+        width: 200px;
+    }
+    .image img{
+        width: 350px;
+        border-radius: 20px;
+    }
+    
+}
